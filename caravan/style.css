@@ -15,14 +15,31 @@ a {
   clear: both;
 }
 
+header, nav, h2, .main-visual, footer {
+	font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
-	width: 100%;
+	position: relative;
+	width: 90%;
+	padding: 15px 0;
 	text-align: center;
-	margin: 15px auto;
+	margin: 0 auto;
 }
 
 header .headline {
 	font-size: 32px;
+}
+
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+
+.social i {
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .nav-list {
@@ -93,6 +110,7 @@ header .headline {
 .blog-image {
 	height: 180px;
 	float: left;
+	width: 270px;
 }
 
 .blog-text {
